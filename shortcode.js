@@ -99,13 +99,13 @@ function mbt(html) {
             var sbtitle = $(this).attr('title');
 
             if (sbh == null || tbu == '') {
-                sbh = '';
+                sbh = 'none';
             }
             if (sblink == null || tbct == '') {
                 sblink = 'none';
             }
             if (sbtitle == null || tbs == '') {
-                sbtitle = '';
+                sbtitle = 'none';
             }
             
             var html = '<div class="in-post"><tp><strong>' + sbh + '</strong></tp> <a href="' + sbh + '" />' + sbtitle + '</a></div>'
