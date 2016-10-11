@@ -98,6 +98,16 @@ function mbt(html) {
             var sblink = $(this).attr('link');
             var sbtitle = $(this).attr('title');
 
+            if (sbh == null || tbu == '') {
+                sbh = '';
+            }
+            if (sblink == null || tbct == '') {
+                sblink = 'none';
+            }
+            if (sbtitle == null || tbs == '') {
+                sbtitle = '';
+            }
+            
             var html = '<div class="in-post"><tp><strong>' + sbh + '</strong></tp> <a href="' + sbh + '" />' + sbtitle + '</a></div>'
             $(this).replaceWith(html);
         });
