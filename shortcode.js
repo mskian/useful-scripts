@@ -101,3 +101,5 @@ function mbt(html) {
             var html = '<div class="in-post"><tp><strong>' + sbh + '</strong></tp> <a href="' + sbh + '" />' + sbtitle + '</a></div>'
             $(this).replaceWith(html);
         });
+
+});
