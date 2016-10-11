@@ -11,7 +11,7 @@
 $(document).ready(function() {
 
 // Global Variables
-var bhf = ['gbutton', 'tfollow', 'ttweet', 'gbadge', 'embed', 'fbsend', 'fbfollow', 'fbshare', 'fblike', 'blockquote'];
+var bhf = ['mlink'];
 
 // Can be added in Blog posts
 $('.post').each(function() {
