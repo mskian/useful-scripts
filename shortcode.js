@@ -98,17 +98,17 @@ function mbt(html) {
             var sblink = $(this).attr('link');
             var sbtitle = $(this).attr('title');
 
-            if (sbh == null || tbu == '') {
+            if (sbh == null || sbh == '') {
                 sbh = 'none';
             }
-            if (sblink == null || tbct == '') {
+            if (sblink == null || sblink == '') {
                 sblink = 'none';
             }
-            if (sbtitle == null || tbs == '') {
+            if (sbtitle == null || sbtitle == '') {
                 sbtitle = 'none';
             }
             
-            var html = '<div class="in-post"><tp><strong>' + sbh + '</strong></tp> <a href="' + sbh + '" />' + sbtitle + '</a></div>'
+            var html = '<div class="in-post"><tp><strong>' + sbh + '</strong></tp> <a href="' + sblink + '" />' + sbtitle + '</a></div>'
             $(this).replaceWith(html);
         });
 
