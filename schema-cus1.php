@@ -1,0 +1,1 @@
+<?php echo '<div class="featured-thumbnail">'; the_post_thumbnail('schema-slider',array('title' => '')); echo '</div>'; ?>
