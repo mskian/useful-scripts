@@ -1,1 +1,1 @@
-[mytube id="YOUR YOUTUBE VIDEO ID"/]
+[mytube id="YOUR YOUTUBE VIDEO ID" /]
