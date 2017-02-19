@@ -1,0 +1,7 @@
+
+/*Responsive HTML Table*/ 
+#awts-table{width:100%;font-family: 'Open Sans'; block;border-spacing: 0;} 
+#awts-table tr:nth-child(odd){background-color:#d3ecf2} 
+#awts-table th{background-color:#42b0c9;color:#fff;border:1px solid #42b0c9} 
+#awts-table th:nth-child(even){background-color:#4bbad3} 
+@media only screen and (max-width:768px) {#awts-table {overflow-x: auto;display: block;}}
